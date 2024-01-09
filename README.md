@@ -20,10 +20,10 @@
   - This project is to showcase the ways in which you can clean data for a Housing Dataset.
   - Based on the dataset found on the [CDC's website] (https://covid.cdc.gov/covid-data-tracker/#maps_percent-covid-deaths).
   - Includes the following:
-  -   Populating missing data fields
-  -   Splitting Addresses into Street Address, City, State Columns
-  -   Updating text strings
-  -   Removing duplicates
-  -   Deleting unnecessary columns
+    * Populating missing data fields
+    * Splitting Addresses into Street Address, City, State Columns
+    * Updating text strings
+    * Removing duplicates
+    * Deleting unnecessary columns
 
 
