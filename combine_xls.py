@@ -1,24 +1,18 @@
-''' Import all the required libraries '''
 import pandas as pd
 import os
 
-''' Create variables for input and output location --- Replace 'File_path' with the actual file path you wish to grab and store files from and to'''
-path = "/File_path/"
-output_path = "/File_path/"
+input_path = "/File_path/"
+output_path = "/File_path/New_Workbook.xlsx"
 
-files = os.listdir(path)
+files = os.listdir(input_path)
+combined_data = pd.DataFrame()  # Initialize an empty DataFrame to store combined data
+sheet_counter = 1
 
-''' Initialize an empty list to store individual DataFrames '''
-df_list = []
-
-''' Consolidate the files using for loop '''
-for file in files:
-    if file.endswith(".xls"):
-        data = pd.read_excel(os.path.join(path, file)) 
-        df_list.append(data)
-
-''' Concatenate all DataFrames in the list '''
-final_df = pd.concat(df_list, ignore_index=True)
-
-''' Save the concatenated DataFrame to an Excel file -- REPLACE the file name with the file name you are using'''
-final_df.to_excel(os.path.join(output_path, "Airbnb_Data.xlsx"), index=False)
+with pd.ExcelWriter(output_path) as writer:
+    for file in files:
+        if file.endswith(".xls"):
+            sheet_name = "Sheet" + str(sheet_counter)
+            data = pd.read_excel(os.path.join(input_path, file))  # Read each Excel file
+            combined_data = pd.concat([combined_data, data], ignore_index=True)  # Concatenate data
+            data.to_excel(writer, sheet_name=sheet_name, index=False)  # Write each sheet to the combined workbook
+            sheet_counter += 1
