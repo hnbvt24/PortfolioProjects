@@ -18,4 +18,4 @@ for file in fileList:
 		df = pd.read_excel(input_loc+file)
 		finalDf = finalDf.append(df)
 
-finalDf.to_excel(output_loc+"Airbnb_Data.xls")
+finalDf.to_excel(output_loc+"Airbnb_Data.xlsx")
