@@ -2,9 +2,9 @@
 import pandas as pd
 import os
 
-''' Create variables for input and output location '''
-input_loc = "/Users/haleybengtson/Anatta Dropbox/Haley Bengtson/My Mac (anatta’s MacBook Pro)/Desktop/Airbnb Workbook/"
-output_loc = "/Users/haleybengtson/Anatta Dropbox/Haley Bengtson/My Mac (anatta’s MacBook Pro)/Desktop/Airbnb Workbook Final/"
+''' Create variables for input and output location --- Replace 'File_path' with the actual file path you wish to grab and store files from and to'''
+input_loc = "/File_path/"
+output_loc = "/File_path/"
 
 ''' Create variable for list of input files '''
 fileList = os.listdir(input_loc)
