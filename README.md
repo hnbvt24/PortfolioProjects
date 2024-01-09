@@ -2,7 +2,7 @@
 
 ### Here, you'll discover the various ways in which I have used SQL & Python for problem solving and wrangling data.
 
-## Project 1 - COVID 19 Deaths Analysis**
+## [Project 1 - COVID 19 Deaths Analysis] (/COVID_19_Deaths_Analysis.sql)
   - Converting string 'N/A' values in cells to NULL
   - Analyze the following:
     * The number of people who tested positive for Covid 19 by State
@@ -16,7 +16,7 @@
     * Total Deaths are for each state to see if these 3 states have remained fairly consistent over the trajectory of this dataset
     * The percentage of people who died of Covid 19 out of the people who tested positive for Covid 19 by State
 
-## Project 2 - House Project**
+## [Project 2 - House Project] (/House_Project.sql)
   - This project is to showcase the ways in which you can clean data for a Housing Dataset.
   - Based on the dataset found on the [CDC's website] (https://covid.cdc.gov/covid-data-tracker/#maps_percent-covid-deaths).
   - Includes the following:
