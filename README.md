@@ -5,7 +5,7 @@
 ## Project 1 - COVID 19 Deaths Analysis**
   - Converting string 'N/A' values in cells to NULL
   - Analyze the following:
-  -   # of people who tested positive for Covid 19 by State
+  -   The number of people who tested positive for Covid 19 by State
   -   Which region has the most Hospitalizations of patients with COVID 19 in the past week
   -   Which states are in Region 5 to determine where we need to support hospital staff
   -   Change in new hospital admissions over the prior week to see how much it's fluctuated in each region
