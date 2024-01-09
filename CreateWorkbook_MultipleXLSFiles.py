@@ -11,7 +11,7 @@ fileList = os.listdir(input_loc)
 fileList
 
 ''' Consolidate the files using for loop '''
-finalDf = pd.DataFram()
+finalDf = pd.DataFrame()
 
 for file in fileList:
 	if file.endswith(".xls"):
