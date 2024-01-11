@@ -45,3 +45,12 @@
   - Includes the following:
     * Extracting data from a website
     * Recreating a table in python
+
+## [Project 6 - Scraping Data from an Amazon Product Page](/AmazonWebScraping.py)
+  - This project is to showcase how to scrape product data from Amazon.
+  - Referencing the following [Purina Pro Plan High Protein Dog Food With Probiotics for Dogs, Shredded Blend Chicken & Rice Formula - 18 lb. Bag]([https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue](https://www.amazon.com/Purina-Pro-Plan-Shredded-Chicken/dp/B001VIWHMY/ref=sr_1_1_sspa?c=ts&dib=eyJ2IjoiMSJ9.gTlB5Nw7kn5_xISkmyyvDNEcy5lBTgMwVve74BV4FSuk92cRMtaoje1zlHB2Pv4ttxluzKLSHb-IBu_4M6tEKQ.g6yhi4W91euRABnH1G6S55Fr4Vau_9AfY50wHwoNoSA&dib_tag=se&keywords=Dog%2BFood&qid=1704995498&rdc=1&s=pet-supplies&sr=1-1-spons&ts_id=2975359011&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)https://www.amazon.com/Purina-Pro-Plan-Shredded-Chicken/dp/B001VIWHMY/ref=sr_1_1_sspa?c=ts&dib=eyJ2IjoiMSJ9.gTlB5Nw7kn5_xISkmyyvDNEcy5lBTgMwVve74BV4FSuk92cRMtaoje1zlHB2Pv4ttxluzKLSHb-IBu_4M6tEKQ.g6yhi4W91euRABnH1G6S55Fr4Vau_9AfY50wHwoNoSA&dib_tag=se&keywords=Dog%2BFood&qid=1704995498&rdc=1&s=pet-supplies&sr=1-1-spons&ts_id=2975359011&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
+  - Includes the following:
+    * Extracting data from Amazon
+    * Creating a csv file on our local machine
+    * Create a Function to insert data into our csv
+    * Setting a timer to run our function every day
