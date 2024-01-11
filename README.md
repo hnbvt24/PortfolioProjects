@@ -26,4 +26,22 @@
     * Removing duplicates
     * Deleting unnecessary columns
 
+## [Project 3 - BMI Calculator](/BMI_Calculator.py)
+  - This project is to showcase requesting user input for conducting calculations.
+  - Based on the dataset found on the [CDC's website](https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/english_bmi_calculator/bmi_calculator.html).
+  - Includes the following:
+    * Request user input for height and weight
+    * Output their BMI based on the calculations provided by the CDC website
 
+## [Project 4 - Automatic File Sorter in File Explorer](/Automatic_File_Sorter_in_File_Explorer.py)
+  - This project is to showcase how to sort and move files withing your local computer.
+  - Includes the following:
+    * Create folders for various file types
+    * Move files into their respective folders by file type
+
+## [Project 5 - Scraping Data from Wikipedia](/Scraping_Data_From_Wikipedia.py)
+  - This project is to showcase how to scrape table data from a website, in our case - Wikipedia.
+  - Referencing the following [Wikipedia page](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue)
+  - Includes the following:
+    * Extracting data from a website
+    * Recreating a table in python
