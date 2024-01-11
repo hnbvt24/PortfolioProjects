@@ -1,7 +1,7 @@
 # operating system and ability to conduct high level operations on files
 import os, shutil
-# use the r before the string to create a 'raw string'
-path = r"/Users/haleybengtson/Anatta Dropbox/Haley Bengtson/My Mac (anatta’s MacBook Pro)/Desktop/Anatta/Python Tutorial/"
+# use the r before the string to create a 'raw string' --- REPLACE WITH YOUR OWN FOLDER PATH
+path = r"/Users/username/Desktop/Python Tutorial/"
 # look to see what files are in our path and if there are folders in our path already
 file_name = os.listdir(path)
 # create folders for our different types of files we have
